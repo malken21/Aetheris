@@ -67,8 +67,6 @@ playButton.addEventListener('click', () => {
         // 初回のユーザー操作: オーディオコンテキストの初期化
         if (!engine.isInitialized) {
             engine.init();
-            initLayers();
-
             // 全レイヤーを開始（ミュートの場合は無音）
             Object.values(layers).forEach(l => l.start());
         }
@@ -147,4 +145,5 @@ function modulationLoop() {
 }
 
 // ループの開始
+initLayers();
 modulationLoop();
