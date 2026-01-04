@@ -27,12 +27,13 @@
 
             <div class="layers-grid">
                 <!-- 雨レイヤー -->
-                <div class="sound-card" data-layer="rain">
+                <div class="sound-card" data-layer="rain"
+                    style="border-color: var(--primary-accent); box-shadow: rgba(100, 255, 218, 0.1) 0px 0px 20px;">
                     <div class="card-header">
                         <div class="icon-wrapper">🌧️</div>
                         <h2>雨</h2>
                         <label class="switch">
-                            <input type="checkbox" id="rain-toggle">
+                            <input type="checkbox" id="rain-toggle" checked>
                             <span class="slider round"></span>
                         </label>
                     </div>
@@ -45,12 +46,13 @@
                 </div>
 
                 <!-- 風レイヤー -->
-                <div class="sound-card" data-layer="wind">
+                <div class="sound-card" data-layer="wind"
+                    style="border-color: var(--primary-accent); box-shadow: rgba(100, 255, 218, 0.1) 0px 0px 20px;">
                     <div class="card-header">
                         <div class="icon-wrapper">💨</div>
                         <h2>風</h2>
                         <label class="switch">
-                            <input type="checkbox" id="wind-toggle">
+                            <input type="checkbox" id="wind-toggle" checked>
                             <span class="slider round"></span>
                         </label>
                     </div>
@@ -63,12 +65,13 @@
                 </div>
 
                 <!-- 焚き火レイヤー -->
-                <div class="sound-card" data-layer="fire">
+                <div class="sound-card" data-layer="fire"
+                    style="border-color: var(--primary-accent); box-shadow: rgba(100, 255, 218, 0.1) 0px 0px 20px;">
                     <div class="card-header">
                         <div class="icon-wrapper">🔥</div>
                         <h2>焚き火</h2>
                         <label class="switch">
-                            <input type="checkbox" id="fire-toggle">
+                            <input type="checkbox" id="fire-toggle" checked>
                             <span class="slider round"></span>
                         </label>
                     </div>
@@ -81,12 +84,13 @@
                 </div>
 
                 <!-- 深層流（ブラウンノイズ）レイヤー -->
-                <div class="sound-card" data-layer="brown">
+                <div class="sound-card" data-layer="brown"
+                    style="border-color: var(--primary-accent); box-shadow: rgba(100, 255, 218, 0.1) 0px 0px 20px;">
                     <div class="card-header">
                         <div class="icon-wrapper">🌊</div>
                         <h2>深層流</h2>
                         <label class="switch">
-                            <input type="checkbox" id="brown-toggle">
+                            <input type="checkbox" id="brown-toggle" checked>
                             <span class="slider round"></span>
                         </label>
                     </div>
@@ -103,7 +107,7 @@
                 <h3><span class="indicator">●</span> 自動変調</h3>
                 <p>環境音を自律的に変化させます。</p>
                 <label class="switch">
-                    <input type="checkbox" id="auto-modulate-toggle">
+                    <input type="checkbox" id="auto-modulate-toggle" checked>
                     <span class="slider round"></span>
                 </label>
             </section>
